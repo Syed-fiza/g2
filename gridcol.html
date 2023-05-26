@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-image: url(mon.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            color:rgb(8, 54, 79);
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+        }
+        .item1,.item2,.item3,.item4,.item5{
+            width: 350px;
+            height: 350px;
+            background-color:transparent;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .item1{
+            grid-column-start:4 ;
+            grid-column-end: 6;
+        }
+        .item2{
+            grid-column-start: 5;
+            grid-column-end: 5;
+
+        }
+        .item3{
+            grid-column-start:1;
+            grid-column-end: 5;
+        }
+        .item4{
+            grid-column-start: 4;
+            grid-column-end: 5;
+        }
+        
+        .item5{
+            grid-column-start: 5;
+            grid-column-end: 5;
+        }
+        
+        
+       
+    </style>
+</head>
+<body>
+    <header1>
+        <marquee><h1><i>DON'T GIVEUP ON YOURSELF!</i></h1></marquee>
+    </header1>
+    <div class="grid">
+        <div class="item1"><img src="study room.jpeg" width="350px"></div>
+        <div class="item2"><img src="stick.jpg" width="350px"></div>
+        <div class="item3"><img src="reading.jpg" width="350px"></div>
+        <div class="item4"><img src="lc.jpg" width="350px"></div><br>
+        <div class="item5"><img src="ush.jpg" width="350px"></div>
+
+    </div>
+    
+</body>
+</html>
